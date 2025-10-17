@@ -10,7 +10,7 @@ jobs:
       matrix:
         # List of keymap json files to build
         file:
-          - keebio_iris_ce_rev1_miryoku_modified.json
+          - keebio_iris_ce_rev1_funkyoku.json
     # End of json file list
 
     steps:
