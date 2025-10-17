@@ -1,0 +1,11 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  iris:
+    aliases:
+      - default
+      - build
+    cmd: qmk compile ./keebio_iris_ce_rev1_miryoku_modified.json
+    silent: true
