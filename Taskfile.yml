@@ -7,5 +7,8 @@ tasks:
     aliases:
       - default
       - build
-    cmd: qmk compile ./keebio_iris_ce_rev1_miryoku_modified.json
+    cmd: qmk compile ./keebio_iris_ce_rev1_funkyoku.json
     silent: true
+
+  iris-default-keymap:
+    cmd: qmk compile -kb keebio/iris_ce/rev1 -km default
